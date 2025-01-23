@@ -75,6 +75,7 @@ class ApplicationTests {
 						String name = game.path("name").asText();         // 게임 이름
 						String released = game.path("released").asText(); // 출시일
 						double rating = game.path("rating").asDouble();   // 평점
+						// 영어 ver
 
 						System.out.println("=== Game Information ===");
 						System.out.printf("Name: %s%nReleased: %s%nRating: %.1f%n", name, released, rating);
