@@ -32,7 +32,7 @@ class ApplicationTests {
 			JsonNode root = objectMapper.readTree(response);
 			JsonNode results = root.path("results");
 
-			// 인기 게임 리스트 출력
+			// 인기 게임 리스트 출력 ㅇㅅㅇ
 			System.out.println("=== Popular Games ===");
 			for (JsonNode game : results) {
 				String name = game.path("name").asText(); // 게임 이름
