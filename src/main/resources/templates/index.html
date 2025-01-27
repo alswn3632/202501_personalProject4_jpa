@@ -4,6 +4,15 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{layout/layout}">
 
+<head>
+    <!--/* bootstrap 연결 */-->
+    <link rel="stylesheet" th:href="@{/dist/css/bootstrap.min.css}">
+    <script th:src="@{/dist/js/bootstrap.bundle.min.js}"></script>
+</head>
+
 <div layout:fragment="main">
     <h3>My Personal Project!!</h3>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+
+
 </div>

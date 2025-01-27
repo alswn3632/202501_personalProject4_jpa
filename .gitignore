@@ -35,3 +35,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### 부트스트랩 ###
+/src/main/resources/static/dist/
