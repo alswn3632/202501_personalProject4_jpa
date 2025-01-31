@@ -75,10 +75,12 @@ class ApplicationTests {
 						String name = game.path("name").asText();         // 게임 이름
 						String released = game.path("released").asText(); // 출시일
 						double rating = game.path("rating").asDouble();   // 평점
+						String id = game.path("id").asText(); // id 값
 						// 영어 ver // 한글 ver 안될듯 영어 게임은 그냥 영어로 두는게?
 
 						System.out.println("=== Game Information ===");
 						System.out.printf("Name: %s%nReleased: %s%nRating: %.1f%n", name, released, rating);
+						System.out.println(id);
 						return;
 					}
 				}
