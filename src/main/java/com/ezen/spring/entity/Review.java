@@ -26,7 +26,7 @@ public class Review extends TimeBase{
     private Double rating; // 리뷰 평점 (0.0 ~ 5.0, 0.5 단위)
 
     @Column(length = 2000, nullable = false)
-    private String reviewText; // 리뷰 내용
+    private String content; // 리뷰 내용
 
     @Column(length = 5, nullable = false)
     private String isDel = "N"; // 삭제 여부 기본값: "N"
